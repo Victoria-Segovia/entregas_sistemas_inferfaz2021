@@ -1,0 +1,314 @@
+.bandera {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+
+.colombia1 {
+    background-color: yellow;
+    display: block !important;
+    width: 500px;
+    height: 50%;
+    border: 0px;
+}
+
+.colombia2 {
+    background-color: blue;
+    display: block !important;
+    width: 500px;
+    height: 25%;
+    border: 0px;
+}
+
+.colombia3 {
+    background-color: red;
+    display: block !important;
+    width: 500px;
+    height:25%;
+    border: 0px;
+}
+
+.mexico1 {
+    background-color: green;
+    display: inline-block;
+    width: 166px;
+    height: 300px;
+}
+
+.mexico2 {
+    background-color: white;
+    display: inline-block;
+    width: 160px;
+    height: 300px;
+}
+
+.mexico3 {
+    background-color: red;
+    display: inline-block;
+    width: 166px;
+    height: 300px;
+}
+ .foto1 {
+     display: block !important;
+     width: 100px;
+     height: 100px;
+     position: relative;
+     top: -200px;
+     left: 198px;
+ }
+
+.espana1 {
+    background-color: red;
+    display: block !important;
+    width: 500px;
+    height: 25%;
+}
+
+.espana2 { 
+ background-color: orange;
+ display: block !important;
+ width: 500px;
+ height: 50%;
+}
+
+.espana3 {
+    background-color: red;
+    display: block !important;
+    width: 500px;
+    height: 25%;
+}
+
+.foto2 {
+    display: block !important;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -205px;
+    left: 75px;
+}
+
+.japon1 {
+    background-color: white;
+    display: inline-block;
+    
+}
+
+.japon2 {
+    background-color: red;
+     border-radius: 100%;
+     width: 150px;
+     height: 150px;
+     margin: 10%;
+     position: relative;
+     left: 25%;
+ }    
+
+.islandia1 {
+    background-color: blue;
+     width: 500px;
+    height: 300px;
+}
+
+.islandia2 {
+    background-color: white;
+    display: block !important;
+    width: 60px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 130px;
+}
+
+.islandia3 {
+    background-color: white;
+    display: block !important;
+    width: 500px;
+    height: 60px;
+    position: relative;
+    top: -478px;
+    left: 0px;
+}
+
+.islandia4 {
+    background-color: red;
+    display: block !important;
+    width: 40px;
+    height: 300px;
+    position: relative;
+    top: -660px;
+    left: 140px;
+}
+
+.islandia5 {
+    background-color: red;
+    display: block !important;
+    width: 500px; 
+    height: 40px;
+    position: relative;
+    top: -828px;
+    left:0px;
+}
+
+.chile1 {
+    background-color: blue;
+    display: block !important;
+    width: 170px; 
+    height: 150px; 
+}
+
+.chile2 {
+    background-color: red;
+    display: block !important;
+    width: 500px;
+    height: 50%;
+}
+
+
+
+.brasil1 { 
+background-color: green;
+display: inline-block;
+width: 500px;
+height: 300px;
+}
+
+.brasil2 {
+    width: 210px; 
+    height: 210px; 
+    background: yellow;
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(135deg) skew(15deg, 15deg);
+    display: block !important;
+    position: relative;
+    top: -260px;
+    left: 135px;
+} 
+
+.brasil3 {
+    background-color: blue;
+     border-radius: 100%;
+     width: 140px;
+     height: 140px;
+     margin: 10%;
+     display: block !important;
+     position: relative;
+     top: -485px;
+     left: 121px;
+}
+
+.pakistan1 {
+    background-color: green;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+}
+
+.pakistan2 {
+    
+        width: 180px;
+        height: 180px;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        -moz-box-shadow: 30px 10px  ;
+        box-shadow: 30px 10px 0 #ffffff;
+        position: relative;
+        top: -270px;
+        left: 230px;
+        transform: rotate(130deg);
+  }  
+
+p {
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 { 
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#estrella{
+    margin:10px;	
+    width:1px;
+    height:1px;
+    border-bottom:130px solid white;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    }
+    #estrella:before{
+    content:"";
+    display:block;
+    width:1px;
+    height:1px;
+    border-top:45px solid white;
+    border-left:60px solid transparent;
+    border-right:60px solid transparent;
+    position:relative;
+    top:45px;
+    left:-60px;
+    } 
+    #estrella:after{
+    content:"";
+    display:block;
+    width:1px;
+    height:1px;
+    border-bottom:40px solid blue;
+    border-left:75px solid transparent;
+    border-right:75px solid transparent;
+    position:relative;
+    top:46px;
+    left:-75px;
+    }
+    
+    #estrella {
+        position: relative;
+        top: -295px;
+        left: 25px;
+    }
+
+    #estrella2{
+        margin:10px;	
+        width:1px;
+        height:1px;
+        border-bottom:130px solid white;
+        border-left:50px solid transparent;
+        border-right:50px solid transparent;
+        }
+        #estrella2:before{
+        content:"";
+        display:block ;
+        width:1px;
+        height:1px;
+        border-top:45px solid white;
+        border-left:60px solid transparent;
+        border-right:60px solid transparent;
+        position:relative;
+        top:45px;
+        left:-60px;
+        } 
+        #estrella2:after{
+        content:"";
+        display:block;
+        width:1px;
+        height:1px;
+        border-bottom:40px solid green;
+        border-left:75px solid transparent;
+        border-right:75px solid transparent;
+        position:relative;
+        top:46px;
+        left:-75px;
+        }
+        
+        #estrella2 {
+            position: relative;
+            top: -450px;
+            left: 260px;
+
+        }
